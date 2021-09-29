@@ -1,0 +1,28 @@
+body{
+    background-color: burlywood;
+}
+
+button{
+    width: 160px;
+    height:50px;
+    background-color: azure;
+}
+button:hover{
+    background-color:beige;
+}
+
+.grid-container{
+    display: grid;
+    border:1px solid black;
+    width: 960px;
+    height: 960px;
+    background-color:white;
+}
+
+.add-gridlines{
+    border: 0.5px solid rgba(21, 6, 88, 0.7);
+}
+
+#display-gridlines {
+    padding: 0 20px;
+}
